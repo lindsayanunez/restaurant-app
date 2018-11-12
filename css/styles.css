@@ -245,12 +245,20 @@ nav h1 a {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
-  width: 50%;
+  width: 100%;
 }
-#reviews-container {
-  padding: 30px 40px 80px;
 
+#reviews-container {
+  background-color: #f3f3f3;
+  list-style: outside none none;
+  margin: 0;
+  padding: 30px 15px 60px;
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
 }
+
 #reviews-container h2 {
   color: #f58500;
   font-size: 24pt;
@@ -259,29 +267,21 @@ nav h1 a {
   padding-bottom: 1pt;
 }
 #reviews-list {
-  list-style: outside none none;
   margin: 0;
-  padding: 30px 15px 60px;
-  display: flex;
-  flex-direction:column;
-  align-items:center;
-
+  padding:0;
 }
-#reviews-list ul {
-  max-width: 200px;
-  width: 50%;}
 
 #reviews-list li {
   background-color: #fff;
     border: 2px solid #f3f3f3;
-  list-style-type: none;
-  margin: 0 0 30px;
-  overflow: hidden;
-  padding: 0 20px 20px;
-  position: relative;
-
-
+  margin: 15px;
+  min-height: 380px;
+  padding: 0 30px 25px;
+  text-align: left;
+  max-width: 470px;
+  width: 80%;*/
 }
+
 #reviews-list li p {
   margin: 0 0 10px;
 }

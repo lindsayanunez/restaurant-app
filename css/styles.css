@@ -100,11 +100,9 @@ nav h1 a {
 }
 
 #breadcrumb {
-/*  padding: 10px 40px 16px;
-*/  list-style: none;
-/*  background-color: #eee;
-*/  font-size: 17px;
-  margin: 0;
+list-style: none;
+font-size: 17px;
+margin: 0;
 }
 
 /* Display list items side by side */
@@ -143,9 +141,6 @@ nav h1 a {
   width: 100%;
   height: 100%;
   background-color: #3397DB;
-  /*display: flex;
-  align-items: center;
-  justify-content:center;*/
   padding: 10px 0;
 }
 
@@ -189,9 +184,7 @@ nav h1 a {
   min-height: 380px;
   padding: 0 30px 25px;
   text-align: left;
-/*  max-width: 270px;
-  display: inline-block;*/
-    max-width: 470px;
+  max-width: 470px;
   width: 80%;
 }
 
@@ -297,21 +290,13 @@ nav h1 a {
 #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-/*  padding: 3rem;
-  width: 100%;*/
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 #reviews-container {
-/*  background-color: #f3f3f3;
-  list-style: outside none none;
-  margin: 0;*/
   padding: 30px 15px 60px;
-/*  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;*/
 }
 
 #reviews-container h2 {
@@ -320,14 +305,11 @@ nav h1 a {
   font-weight: 300;
   letter-spacing: -1px;
   padding-bottom: 1pt;
-  /*width: 100%;
-  text-align: center;*/
 }
 
 #reviews-list {
   margin: 0;
   padding: 0;
-/*  list-style-type: none;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -342,11 +324,6 @@ nav h1 a {
   overflow: hidden;
   position: relative;
   width: 85%;
-
-/*  padding: 1.5rem;
-  text-align: left;
-  width: 80%;
-  margin: 1.5rem auto;*/
 }
 
 #reviews-list li p {

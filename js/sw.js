@@ -53,4 +53,12 @@ self.addEventListener('fetch', function(e){
     );
 });
 
+// ##Resources Used
+
+// * [Starter Code from Udacity Front-End Nanodegree] (https://github.com/udacity/mws-restaurant-stage-1)
+// * [Matthew Cranford's Tutorial Part 1](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-1-map-api/)
+// * [Matthew Cranford's Tutorial Part 2](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-2-responsiveness/)
+// * [Matthew Cranford's Tutorial Part 3](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/)
+// * [Matthew Cranford's Tutorial Part 4](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/)
+
 

@@ -338,6 +338,8 @@ text-align: left;
   overflow: hidden;
   position: relative;
   width: 85%;
+  border-radius: 0px 50px;
+  padding: 2em;
 }
 
 #reviews-list li p {

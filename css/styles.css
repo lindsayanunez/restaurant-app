@@ -346,6 +346,16 @@ text-align: left;
   margin: 0 10px;
 }
 
+#reviews-list li p:nth-child(3) {
+  background: #f58500;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  display:inline;
+}
+
 #restaurant-hours {
   padding-bottom: 2em;
 }
@@ -357,7 +367,3 @@ text-align: left;
 /*Resources Used
 
 Starter Code from Udacity Front-End Nanodegree-https://github.com/udacity/mws-restaurant-stage-1
-Matthew Cranford's Tutorial Part 1-https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-1-map-api/
-Matthew Cranford's Tutorial Part 2-https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-2-responsiveness/
-Matthew Cranford's Tutorial Part 3-https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/
-Matthew Cranford's Tutorial Part 4-https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/*/

@@ -148,7 +148,7 @@ text-align: left;
 .filter-options {
   width: 100%;
   height: 100%;
-  background-color: #3397DB;
+  background-color: #444;
   padding: 10px 0;
 }
 
@@ -417,7 +417,7 @@ text-align: left;
 }
 
 #restaurant-hours td:nth-child(odd) {
-  font-weight: bold;
+  font-weight: bold;:nth-child(odd)
 }
 
 /*Resources Used

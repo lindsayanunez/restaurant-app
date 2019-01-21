@@ -357,7 +357,7 @@ text-align: left;
   display:inline;
   width:70%;
   color: #333;
-  padding-left: 70%
+  padding-left: 70%;
 }
 
 @media only screen and (max-width: 830px) {
@@ -416,7 +416,9 @@ text-align: left;
   color: #666;
 }
 
-
+#restaurant-hours td:nth-child(odd) {
+  font-weight: bold;
+}
 
 /*Resources Used
 
